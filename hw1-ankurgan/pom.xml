@@ -96,7 +96,7 @@
     </dependency>
   </dependencies>
   <scm>
-  	<connection>scm:git:git@github.com:https://github.com/ankurgandhe/hw1-ankurgan.git</connection>
-  	<developerConnection>scm:git:git@github.com:https://github.com/ankurgandhe/hw1-ankurgan.git</developerConnection>
+  	<connection>scm:git:git@github.com:ankurgandhe/hw1-ankurgan.git</connection>
+  	<developerConnection>scm:git:git@github.com:ankurgandhe/hw1-ankurgan.git</developerConnection>
   </scm>
 </project>
