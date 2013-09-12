@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.1" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true">  
+  <class id="1" language="java" name="edu.cmu.lti.iis.Answer" project="hw1-ankurgan" 
+    file="/hw1-ankurgan/src/main/java/edu/cmu/lti/iis/Answer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="53" width="87" x="295" y="135"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="edu.cmu.lti.iis.Trigram" project="hw1-ankurgan" 
+    file="/hw1-ankurgan/src/main/java/edu/cmu/lti/iis/Trigram.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="58" width="87" x="41" y="233"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="true" protected="true" private="true"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="edu.cmu.lti.iis.Bigram" project="hw1-ankurgan" 
+    file="/hw1-ankurgan/src/main/java/edu/cmu/lti/iis/Bigram.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="58" width="87" x="168" y="233"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="true" protected="true" private="true"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="edu.cmu.lti.iis.AnswerScore" project="hw1-ankurgan" 
+    file="/hw1-ankurgan/src/main/java/edu/cmu/lti/iis/AnswerScore.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="471" y="261"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="true" protected="true" private="true"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="edu.cmu.lti.iis.Question" project="hw1-ankurgan" 
+    file="/hw1-ankurgan/src/main/java/edu/cmu/lti/iis/Question.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="58" width="87" x="168" y="135"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="true" protected="true" private="true"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="edu.cmu.lti.iis.Evaluator" project="hw1-ankurgan" 
+    file="/hw1-ankurgan/src/main/java/edu/cmu/lti/iis/Evaluator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="58" width="87" x="41" y="135"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="true" protected="true" private="true"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="edu.cmu.lti.iis.Token" project="hw1-ankurgan" 
+    file="/hw1-ankurgan/src/main/java/edu/cmu/lti/iis/Token.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="339" y="363"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="true" protected="true" private="true"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="edu.cmu.lti.iis.TestElement" project="hw1-ankurgan" 
+    file="/hw1-ankurgan/src/main/java/edu/cmu/lti/iis/TestElement.java" binary="false" corner="BOTTOM_LEFT">    
+    <position height="58" width="94" x="168" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="true" protected="true" private="true"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="edu.cmu.lti.iis.Unigram" project="hw1-ankurgan" 
+    file="/hw1-ankurgan/src/main/java/edu/cmu/lti/iis/Unigram.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="58" width="87" x="295" y="233"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="true" protected="true" private="true"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <dependency id="10">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="11">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="12">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="13">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="14">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="15">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="16">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="17">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="18">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="false" package="true" protected="true" private="true"/>    
+    <operations public="false" package="false" protected="false" private="false"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
